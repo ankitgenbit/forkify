@@ -77,9 +77,9 @@ const controlServings = function () {
   recipeView.render(model.state.recipe);
 };
 
-const newFeature = function () {
-  console.log('New Feature Runs...');
-};
+// const newFeature = function () {
+//   console.log('New Feature Runs...');
+// };
 
 const init = function () {
   console.log('Welcome');
@@ -87,7 +87,7 @@ const init = function () {
   recipeView.addHandlerUpdateServings(controlServings);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
-  newFeature();
+  // newFeature();
 };
 
 init();
